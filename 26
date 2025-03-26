@@ -8,3 +8,10 @@ int main() {
     printf("Press 3 for BTech ME\n");
     printf("Press 4 for BTech Civil\n");
     printf("Enter your choice: ");
+    scanf("%d", &choice);
+    
+    switch (choice) {
+        case 1:
+            printf("You selected BTech CSE.\n");
+            break;
+
