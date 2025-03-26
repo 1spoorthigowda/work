@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int array[100];
+    int n,i;
+    int *ptr;
+    ptr=&array;
+    printf("enter the number elements:");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter array[%d]: ",i);
+        scanf("%d",(ptr+i));
+    }
+    printf("array[%d]: \n");
+    for(i=0;i<n;i++)
+    {
+        printf("array[%d]: %d\n",i,*(ptr+i));
+    }
+    int max=*ptr;
+    for (i=0;i<n;i++)

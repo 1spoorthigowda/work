@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int choice;
+    
+    printf("Press 1 for BTech CSE\n");
+    printf("Press 2 for BTech ECE\n");
+    printf("Press 3 for BTech ME\n");
+    printf("Press 4 for BTech Civil\n");
+    printf("Enter your choice: ");
