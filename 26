@@ -20,3 +20,12 @@ int main() {
         case 3:
             printf("You selected BTech ME.\n");
             break;
+	     case 4:
+            printf("You selected BTech Civil.\n");
+            break;
+        default:
+            printf("Invalid choice! Please select a valid option.\n");
+    }
+
+    return 0;
+}
